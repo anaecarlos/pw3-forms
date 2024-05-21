@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  align-items: center;
+  text-align: center;
+}
+
+.botao{
+  border-width: 0.1em;
+  background: transparent;
+  border-color: blue;
+  width: 10%;
+  height: 45px;
+}
+

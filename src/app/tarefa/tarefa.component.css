@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  text-align: center;
+}
+
+.example-form {
+  display: grid;
+  gap: 1.2em;
+}
+
+.botao{
+  background: transparent;
+  border-color: black;
+  border-width: 0.2em;
+  font-size: 1.2em;
+}
+
+.texto{
+  font-size: 1.6em;
+}
+
+.textarea{
+  border-color: black;
+  border-width: 0.2em;
+}
+
+.mat-mdc-radio-button span{
+  color:black;
+  font-size: 1.5em;
+}
+
+

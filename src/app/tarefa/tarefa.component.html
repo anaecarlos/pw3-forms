@@ -1,0 +1,41 @@
+<form class="example-form">
+  <mat-form-field class="example-full-width">
+    <mat-label>Resumo</mat-label>
+    <input matInput placeholder="Ex. Pc sem NPM" value="" />
+  </mat-form-field>
+
+  <br />
+
+  <mat-radio-group aria-label="Tipo de Problema">
+    <mat-radio-button value="TAREFA"><span>Tarefa</span></mat-radio-button>
+    <mat-radio-button value="BUG"><span>bug</span></mat-radio-button>
+  </mat-radio-group>
+
+  <br />
+
+  <mat-form-field>
+    <mat-label>Prioridade</mat-label>
+    <mat-select value="">
+      <mat-option>None</mat-option>
+      <mat-option value="0">Ciritica</mat-option>
+      <mat-option value="1">Alta</mat-option>
+      <mat-option value="2">Media</mat-option>
+      <mat-option value="3">Baixa</mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <br />
+
+
+  <label class='texto'>Prazo final:</label>
+  <input type="text" class="textarea"/>
+
+  <br />
+
+  <label class='texto'>Descrição:</label>
+  <textarea rows="4" cols="50" class="textarea"></textarea>
+
+  <br />
+
+  <button class="botao">Enviar</button>
+</form>
